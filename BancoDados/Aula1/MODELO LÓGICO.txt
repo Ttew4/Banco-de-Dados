@@ -1,0 +1,18 @@
+MODELO LÓGICO
+# - chave primária
+@ - chave estrangeira
+
+Tab. Aluno:
+matricula#,nome,dataNasc,codCidade@
+				codCidade referencia Cidade(codigo)
+
+Tab. Cidade:
+codigo#,nome,UF,numHabitantes
+
+Tab. Hobby:
+
+Hcodigo#,descricao,obs
+
+Tab. AlunoHobby: frequencia, matricula@#, Hcodigo@#
+
+(nunca é nulo e não se repete, portanto a chave estrangeira pode ser primária nesse caso)

@@ -1,0 +1,19 @@
+16: Escreva uma consulta para identificar os 3 produtos mais vendidos pela empresa em quantidade total de unidades. Exiba a descrição do produto e a soma das quantidades vendidas.
+17: Crie uma consulta que liste, sem duplicatas, os nomes de todos os clientes que já realizaram compras contendo produtos com valor unitário superior a R$ 100,00.
+18-  Faça uma consulta para listar  quantidade de funcionários de cada empresa
+19- Faça uma consulta para listar  quantidade de produtos de cada empresa e o somatório do valor dos produtos
+20- Faça uma consulta para listar a quantidade de itens de cada Pedido
+21- Faça uma consulta para listar o nº de pedidos de cada cliente e o valor médio.
+Liste os dados por ordem do valor médio / do maior para o menor
+22- Faça uma consulta para listar o valor máximos e o valor mínimo dos produtos. Agrupados pela empresa
+23- Faça uma consulta para listar o nº de pedidos de Funcionário. Liste de todos
+funcionário, mesmo que não tenha tirado pedido.
+24- Faça uma consulta para listar o nº de produtos em cada pedido. Liste apenas o código e o valor
+total dos pedidos que possuem mais um produto
+25- Faça uma consulta para listar o somatório (valor) de cada pedido do cliente. Liste apenas dos
+clientes com mais de um pedido
+
+26- Crie uma visão (VIEW) chamada v_produtos_empresas que simplifique a consulta de produtos. A visão deve exibir o código do produto, a descrição, o valor unitário e o nome (razão social) da empresa à qual o produto pertence.
+27- O setor de RH solicitou um relatório rápido do desempenho da equipe. Crie uma visão chamada v_desempenho_vendedores que mostre o nome de cada funcionário, o seu salário atual e o valor total acumulado em vendas (soma do valor de todos os seus pedidos). O departamento fiscal precisa consultar constantemente os dados
+das notas fiscais atrelados aos clientes. 
+28- Crie uma visão chamada v_relatorio_fiscal que cruze Nota Fiscal, Pedido e Cliente. Ela deve exibir o número da nota, o status, a data de emissão, o valor da nota e o nome do cliente que fez a compra.
